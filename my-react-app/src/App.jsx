@@ -17,7 +17,7 @@ function App() {
   
   return (
     <JokeProvider>
-        <Router basename="/">
+        <Router>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/joke" element={<JokePage />} />
